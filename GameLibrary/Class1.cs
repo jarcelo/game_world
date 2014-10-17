@@ -8,5 +8,6 @@ namespace GameLibrary
 {
     public class Class1
     {
+        // test for sample commit
     }
 }
