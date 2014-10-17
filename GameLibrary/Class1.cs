@@ -9,5 +9,7 @@ namespace GameLibrary
     public class Class1
     {
         // test for sample commit
+
+        // sample changes coming from sample branch
     }
 }
