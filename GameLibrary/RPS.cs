@@ -12,15 +12,21 @@ namespace GameLibrary
     {
         public enum Choice {Rock = 0, Paper = 1, Scissors = 2}
         public enum Outcome {Win = 10, Lose = 11, Draw = 12}
+
         // create a constructor
-        public RPS() { }
+        // TODO: revised the constructor
+        public RPS()
+        {
+
+        }
         // define player's choice field and property
-        int playerChoice; 
+        private int playerChoice; 
         public int PlayerChoice
         {
             get { return playerChoice; }
             set { playerChoice = value; }
         }
+
         // get computer's choice (initiate a random number).
         private static readonly Random num = new Random();
         private int computerChoice = num.Next(3);
@@ -29,7 +35,7 @@ namespace GameLibrary
             // computer choice is set to read-only
             get { return computerChoice; }
         }
- 
+
         public string DisplayChoice(int choice)
         {
             string show = "";
