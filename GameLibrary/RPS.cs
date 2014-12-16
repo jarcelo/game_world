@@ -16,6 +16,7 @@ namespace GameLibrary
         // create a constructor
         // TODO: revised the constructor
         // Sample Change
+        // From sample branch
         public RPS()
         {
 
